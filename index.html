@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css"/>
     <title>AI Zulu Poem Generator</title>
 </head>
@@ -13,20 +14,17 @@
 </header>
 
 <main>
-    <form> 
+    <form id="poem-generator-form"> 
  <input type="text" 
  placeholder="Enter the topic of the Zulu Poem" 
  autofocus required  autocomplete="off" class="instructions"/>
  <input type="submit" class="submit-button"/>
  
     </form>
-    <div class="Poem">
-    Ngisho noma ulwandle lubuye lungazi
-    <br/>
-  Ukuthi kumele lugcine kuphi
+    <div class="Poem" id="poem"></div> 
  </div>
-
 </main>
+
 <footer>
 
     This AI project was coded by <a href="https://github.com/Sizarh/" target="_blank">Zama M </a>
